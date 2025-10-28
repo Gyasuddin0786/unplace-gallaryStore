@@ -27,7 +27,7 @@ function App() {
         },
         headers: {
           Authorization:
-            "API_KEY", // Replace with your Pexels API key
+            "u4iJCbm5Rasci0noi9O1pUSvrUVJFeu9q09L936B4OkJf8SvRcmTXI23", // Replace with your Pexels API key
         },
       });
       setImages((prevImages) => [...prevImages, ...response.data.photos]);
